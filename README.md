@@ -1,10 +1,16 @@
-# Grenzeit | Borders in time
+# ZipAirlines
 
-A backend of the Grenzeit project
+A basic application that implements a rest framework API that allows for calculation of airplane consumption and capacity
+
+# About
 
 ## Requirements
 
 ### System requirements
+
+- psycopg2 system requirements
+- python 3.10
+
 
 ## Development
 
