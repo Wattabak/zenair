@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-
+    'drf_yasg',
+    'api',
 ]
 
 MIDDLEWARE = [
@@ -134,3 +135,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'api.CustomUser'
+
+FUEL_CONS_PER_PASSENGER = 0.002
+FUEL_CAPACITY_BASE_MULTIPLIER = 200
+FUEL_CONSUMPTION_MULTIPLIER = 0.8
